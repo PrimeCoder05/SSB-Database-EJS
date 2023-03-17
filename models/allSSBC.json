@@ -1,0 +1,121 @@
+[
+	{
+        "id": 1,
+        "name": "Mario",
+        "type": "brawler",
+        "rank": "A",
+        "specials": ["Fireball", "Cape", "Super Jump Punch", "F.L.U.D.D."],
+        "finalSmash": "Mario Finale",
+        "series": "Mario"
+    },
+
+    {
+        "id": 2,
+        "name": "Donkey-Kong",
+        "type": "brawler",
+        "rank": "B",
+        "specials": ["Giant Punch", "Headbutt", "Spinning Kong", "Hand Slap"],
+        "finalSmash": "Jungle Rush",
+        "series": "Donkey Kong"
+    },
+
+    {
+        "id": 3,
+        "name": "Link",
+        "type": "swordfighter",
+        "rank": "A",
+        "specials": ["Bow and Arrows", "Boomerang", "Spin Attack", "Remote Bomb"],
+        "finalSmash": "Ancient Bow and Arrow",
+        "series": "The Legend Of Zelda"
+    },
+
+    {
+        "id": 4,
+        "name": "Samus",
+        "type": "gunner",
+        "rank": "B",
+        "specials": ["Charge Shot", "Missile", "Screw Attack", "Bomb"],
+        "finalSmash": "Zero Laser",
+        "series": "Metroid"
+    },
+
+    {
+        "id": 5,
+        "name": "Yoshi",
+        "type": "brawler",
+        "rank": "C",
+        "specials": ["Egg Lay", "Egg Roll", "Egg Throw", "Yoshi Bomb"],
+        "finalSmash": "Stampede",
+        "series": "Yoshi"
+    },
+
+    {
+        "id": 6,
+        "name": "Kirby",
+        "type": "brawler",
+        "rank": "A",
+        "specials": ["Inhale", "Hammer Flip", "Final Cutter", "Stone"],
+        "finalSmash": "Ultra Sword",
+        "series": "Kirby"
+    },
+
+    {
+        "id": 7,
+        "name": "Fox",
+        "type": "brawler",
+        "rank": "B",
+        "specials": ["Blaster", "Fox Illusion", "Fire Fox", "Reflector"],
+        "finalSmash": "Team Star Fox",
+        "series": "Star Fox"
+    },
+
+    {
+        "id": 8,
+        "name": "Pikachu",
+        "type": "brawler",
+        "rank": "A",
+        "specials": ["Thunder Jolt", "Skull Bash", "Quick Attack", "Thunder"],
+        "finalSmash": "Volt Tackle",
+        "series": "Pokemon"
+    },
+
+    {
+        "id": 9,
+        "name": "Luigi",
+        "type": "brawler",
+        "rank": "B",
+        "specials": ["Fireball", "Green Missile", "Super Jump Punch", "Luigi Cyclone"],
+        "finalSmash": "Poutlergust G-00",
+        "series": "Mario"
+    },
+
+    {
+        "id": 10,
+        "name": "Ness",
+        "type": "brawler",
+        "rank": "A",
+        "specials": ["PK Flash", "PK Fire", "PK Thunder", "PSI Magnet"],
+        "finalSmash": "PK Starstorm",
+        "series": "Earthbound"
+    },
+
+    {
+        "id": 11,
+        "name": "Captain-Falcon",
+        "type": "brawler",
+        "rank": "S",
+        "specials": ["Falcon Punch", "Raptor Boost", "Falcon Dive", "Falcon Kick"],
+        "finalSmash": "Blue Falcon",
+        "series": "F-Zero"
+    },
+
+    {
+        "id": 12,
+        "name": "Jiggly-Puff",
+        "type": "brawler",
+        "rank": "A",
+        "specials": ["Rollout", "Pound", "Sing", "Rest"],
+        "finalSmash": "Puff Up",
+        "series": "Pokemon"
+    }
+]
