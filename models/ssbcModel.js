@@ -2,7 +2,7 @@ const mongoose = require("mongoose");
 
 const ssbcSchema = new mongoose.Schema(
 	{
-		id: {
+		charId: {
 			type: Number,
 			unique: true,
 			required: true

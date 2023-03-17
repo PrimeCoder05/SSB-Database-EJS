@@ -1,6 +1,6 @@
 [
 	{
-        "id": 1,
+        "charId": 1,
         "name": "Mario",
         "type": "brawler",
         "rank": "A",
@@ -10,7 +10,7 @@
     },
 
     {
-        "id": 2,
+        "charId": 2,
         "name": "Donkey-Kong",
         "type": "brawler",
         "rank": "B",
@@ -20,7 +20,7 @@
     },
 
     {
-        "id": 3,
+        "charId": 3,
         "name": "Link",
         "type": "swordfighter",
         "rank": "A",
@@ -30,7 +30,7 @@
     },
 
     {
-        "id": 4,
+        "charId": 4,
         "name": "Samus",
         "type": "gunner",
         "rank": "B",
@@ -40,7 +40,7 @@
     },
 
     {
-        "id": 5,
+        "charId": 5,
         "name": "Yoshi",
         "type": "brawler",
         "rank": "C",
@@ -50,7 +50,7 @@
     },
 
     {
-        "id": 6,
+        "charId": 6,
         "name": "Kirby",
         "type": "brawler",
         "rank": "A",
@@ -60,7 +60,7 @@
     },
 
     {
-        "id": 7,
+        "charId": 7,
         "name": "Fox",
         "type": "brawler",
         "rank": "B",
@@ -70,7 +70,7 @@
     },
 
     {
-        "id": 8,
+        "charId": 8,
         "name": "Pikachu",
         "type": "brawler",
         "rank": "A",
@@ -80,7 +80,7 @@
     },
 
     {
-        "id": 9,
+        "charId": 9,
         "name": "Luigi",
         "type": "brawler",
         "rank": "B",
@@ -90,7 +90,7 @@
     },
 
     {
-        "id": 10,
+        "charId": 10,
         "name": "Ness",
         "type": "brawler",
         "rank": "A",
@@ -100,7 +100,7 @@
     },
 
     {
-        "id": 11,
+        "charId": 11,
         "name": "Captain-Falcon",
         "type": "brawler",
         "rank": "S",
@@ -110,7 +110,7 @@
     },
 
     {
-        "id": 12,
+        "charId": 12,
         "name": "Jiggly-Puff",
         "type": "brawler",
         "rank": "A",

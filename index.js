@@ -9,7 +9,7 @@ app.set("views", path.join(__dirname, "views"));
 app.use(express.static(path.join(__dirname, "public")));
 
 
-const characterRouter = require("./routes/viewRouters/viewRouter");
+const characterRouter = require("./routes/api/ssbcRouter");
 app.use("/api", characterRouter);
 
 const viewRouter = require("./routes/viewRouters/viewRouter");
