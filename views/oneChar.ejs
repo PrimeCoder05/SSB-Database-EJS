@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title><%= characters.name %></title>
-</head>
-<body>
-	<a href="/allChars">Back to all characters</a>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title><%= characters.name %></title>
+	</head>
+	<body>
+		<a href="/allChars">Back to all characters</a>
 
-	<h1>ID: <%= characters.charId %></h1>
-	<h2>Name: <%= characters.name %></h2>
-	<h3>Type: <%= characters.type %></h3>
-	<h3>Rank: <%= characters.rank %></h3>
-	<ul>
-		Specials:
-		<% characters.specials.forEach( (moves) => { %>
-			<li><%= moves %></li>
-		<% }) %>
-	</ul>
-	<h3>Final Smash: <%= characters.finalSmash %></h3>
-	<h3>Series: <%= characters.series %></h3>
-</body>
+		<h1>ID: <%= characters.charId %></h1>
+		<h2>Name: <%= characters.name %></h2>
+		<h3>Type: <%= characters.type %></h3>
+		<h3>Rank: <%= characters.rank %></h3>
+		<ul>
+			Specials:
+			<% characters.specials.forEach( (moves) => { %>
+				<li><%= moves %></li>
+			<% }) %>
+		</ul>
+		<h3>Final Smash: <%= characters.finalSmash %></h3>
+		<h3>Series: <%= characters.series %></h3>
+	</body>
 </html>
