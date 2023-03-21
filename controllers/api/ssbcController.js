@@ -18,6 +18,25 @@ async function getAllCharacters(req, res) {
 	}
 }
 
+async function getOneCharacter(req, res) {
+	try {
+		let result = await Characters.find({ name: req.params.name });
+
+		res.json({
+			message: "success",
+			payload: result
+		});
+	} catch (error) {
+		console.log(`getOneCharacter error: ${error}`);
+
+		res.json({
+			message: "failure",
+			payload: error
+		});
+	}
+}
+
 module.exports = {
-	getAllCharacters
+	getAllCharacters,
+	getOneCharacter
 }
