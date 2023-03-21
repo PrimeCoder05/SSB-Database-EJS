@@ -10,7 +10,7 @@
 		<h1>Super Smash Brothers Characters</h1>
 		<% characters.forEach( (char) => { %>
 			<h2>Character ID: <%= char.charId %></h2>
-			<h3><%= char.name %></h3>
+			<a href="/oneChar/<%= char.name %>"><%= char.name %></a>
 		<% }); %>
 	</body>
 </html>

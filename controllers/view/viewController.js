@@ -10,6 +10,17 @@ async function renderAllCharacters(req, res) {
 	}
 }
 
+async function renderOneCharacter(req, res) {
+	try {
+		let result = await Characters.find({ name: req.params.name });
+
+		res.render("oneChar", { characters: result[0] });
+	} catch (error) {
+		console.log(`renderOneCharacter error: ${error}`);
+	}
+}
+
 module.exports = {
-	renderAllCharacters
+	renderAllCharacters,
+	renderOneCharacter
 }

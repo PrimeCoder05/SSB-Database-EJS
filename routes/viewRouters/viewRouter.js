@@ -2,7 +2,8 @@ const express = require("express");
 const router = express.Router();
 
 const {
-	renderAllCharacters
+	renderAllCharacters,
+	renderOneCharacter
 } = require("../../controllers/view/viewController");
 
 router.get("/", (req, res) => {
@@ -10,5 +11,7 @@ router.get("/", (req, res) => {
 });
 
 router.get("/allChars", renderAllCharacters);
+
+router.get("/oneChar/:name", renderOneCharacter);
 
 module.exports = router;
