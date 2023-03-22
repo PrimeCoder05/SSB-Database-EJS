@@ -43,7 +43,7 @@ async function createOneCharacter(req, res) {
 			Name: req.body.Name,
 			Type: req.body.Type,
 			Rank: req.body.Rank,
-			Specials: req.body.Specials,
+			Specials: req.body.Specials.split(", "),
 			FinalSmash: req.body.FinalSmash,
 			Series: req.body.Series
 		}

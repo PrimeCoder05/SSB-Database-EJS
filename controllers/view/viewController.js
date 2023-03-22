@@ -20,7 +20,16 @@ async function renderOneCharacter(req, res) {
 	}
 }
 
+async function renderCreateCharacter(req, res) {
+	try {
+		res.render("createChar");
+	} catch (error) {
+		console.log(`renderCreateCharacter error: ${error}`);
+	}
+}
+
 module.exports = {
 	renderAllCharacters,
-	renderOneCharacter
+	renderOneCharacter,
+	renderCreateCharacter
 }
