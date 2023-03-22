@@ -12,6 +12,6 @@ router.get("/", (req, res) => {
 
 router.get("/allChars", renderAllCharacters);
 
-router.get("/oneChar/:name", renderOneCharacter);
+router.get("/oneChar/:Name", renderOneCharacter);
 
 module.exports = router;

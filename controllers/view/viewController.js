@@ -12,7 +12,7 @@ async function renderAllCharacters(req, res) {
 
 async function renderOneCharacter(req, res) {
 	try {
-		let result = await Characters.find({ name: req.params.name });
+		let result = await Characters.find({ Name: req.params.Name });
 
 		res.render("oneChar", { characters: result[0] });
 	} catch (error) {

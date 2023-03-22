@@ -2,34 +2,34 @@ const mongoose = require("mongoose");
 
 const ssbcSchema = new mongoose.Schema(
 	{
-		charId: {
+		CharId: {
 			type: Number,
 			unique: true,
 			required: true
 		},
-		name: {
+		Name: {
 			type: String,
 			unique: true,
 			required: true
 		},
-		type: {
+		Type: {
 			type: String,
 			required: true
 		},
-		rank: {
+		Rank: {
 			type: String,
 			required: true
 		},
-		specials: [{
+		Specials: [{
 			type: String,
 			required: true
 		}],
-		finalSmash: {
+		FinalSmash: {
 			type: String,
 			unique: true,
 			required: true
 		},
-		series: {
+		Series: {
 			type: String,
 			required: true
 		}

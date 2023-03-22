@@ -1,121 +1,121 @@
 [
 	{
-        "charId": 1,
-        "name": "Mario",
-        "type": "brawler",
-        "rank": "A",
-        "specials": ["Fireball", "Cape", "Super Jump Punch", "F.L.U.D.D."],
-        "finalSmash": "Mario Finale",
-        "series": "Mario"
+        "CharId": 1,
+        "Name": "Mario",
+        "Type": "brawler",
+        "Rank": "A",
+        "Specials": ["Fireball", "Cape", "Super Jump Punch", "F.L.U.D.D."],
+        "FinalSmash": "Mario Finale",
+        "Series": "Mario"
     },
 
     {
-        "charId": 2,
-        "name": "Donkey-Kong",
-        "type": "brawler",
-        "rank": "B",
-        "specials": ["Giant Punch", "Headbutt", "Spinning Kong", "Hand Slap"],
-        "finalSmash": "Jungle Rush",
-        "series": "Donkey Kong"
+        "CharId": 2,
+        "Name": "Donkey-Kong",
+        "Type": "brawler",
+        "Rank": "B",
+        "Specials": ["Giant Punch", "Headbutt", "Spinning Kong", "Hand Slap"],
+        "FinalSmash": "Jungle Rush",
+        "Series": "Donkey Kong"
     },
 
     {
-        "charId": 3,
-        "name": "Link",
-        "type": "swordfighter",
-        "rank": "A",
-        "specials": ["Bow and Arrows", "Boomerang", "Spin Attack", "Remote Bomb"],
-        "finalSmash": "Ancient Bow and Arrow",
-        "series": "The Legend Of Zelda"
+        "CharId": 3,
+        "Name": "Link",
+        "Type": "swordfighter",
+        "Rank": "A",
+        "Specials": ["Bow and Arrows", "Boomerang", "Spin Attack", "Remote Bomb"],
+        "FinalSmash": "Ancient Bow and Arrow",
+        "Series": "The Legend Of Zelda"
     },
 
     {
-        "charId": 4,
-        "name": "Samus",
-        "type": "gunner",
-        "rank": "B",
-        "specials": ["Charge Shot", "Missile", "Screw Attack", "Bomb"],
-        "finalSmash": "Zero Laser",
-        "series": "Metroid"
+        "CharId": 4,
+        "Name": "Samus",
+        "Type": "gunner",
+        "Rank": "B",
+        "Specials": ["Charge Shot", "Missile", "Screw Attack", "Bomb"],
+        "FinalSmash": "Zero Laser",
+        "Series": "Metroid"
     },
 
     {
-        "charId": 5,
-        "name": "Yoshi",
-        "type": "brawler",
-        "rank": "C",
-        "specials": ["Egg Lay", "Egg Roll", "Egg Throw", "Yoshi Bomb"],
-        "finalSmash": "Stampede",
-        "series": "Yoshi"
+        "CharId": 5,
+        "Name": "Yoshi",
+        "Type": "brawler",
+        "Rank": "C",
+        "Specials": ["Egg Lay", "Egg Roll", "Egg Throw", "Yoshi Bomb"],
+        "FinalSmash": "Stampede",
+        "Series": "Yoshi"
     },
 
     {
-        "charId": 6,
-        "name": "Kirby",
-        "type": "brawler",
-        "rank": "A",
-        "specials": ["Inhale", "Hammer Flip", "Final Cutter", "Stone"],
-        "finalSmash": "Ultra Sword",
-        "series": "Kirby"
+        "CharId": 6,
+        "Name": "Kirby",
+        "Type": "brawler",
+        "Rank": "A",
+        "Specials": ["Inhale", "Hammer Flip", "Final Cutter", "Stone"],
+        "FinalSmash": "Ultra Sword",
+        "Series": "Kirby"
     },
 
     {
-        "charId": 7,
-        "name": "Fox",
-        "type": "brawler",
-        "rank": "B",
-        "specials": ["Blaster", "Fox Illusion", "Fire Fox", "Reflector"],
-        "finalSmash": "Team Star Fox",
-        "series": "Star Fox"
+        "CharId": 7,
+        "Name": "Fox",
+        "Type": "brawler",
+        "Rank": "B",
+        "Specials": ["Blaster", "Fox Illusion", "Fire Fox", "Reflector"],
+        "FinalSmash": "Team Star Fox",
+        "Series": "Star Fox"
     },
 
     {
-        "charId": 8,
-        "name": "Pikachu",
-        "type": "brawler",
-        "rank": "A",
-        "specials": ["Thunder Jolt", "Skull Bash", "Quick Attack", "Thunder"],
-        "finalSmash": "Volt Tackle",
-        "series": "Pokemon"
+        "CharId": 8,
+        "Name": "Pikachu",
+        "Type": "brawler",
+        "Rank": "A",
+        "Specials": ["Thunder Jolt", "Skull Bash", "Quick Attack", "Thunder"],
+        "FinalSmash": "Volt Tackle",
+        "Series": "Pokemon"
     },
 
     {
-        "charId": 9,
-        "name": "Luigi",
-        "type": "brawler",
-        "rank": "B",
-        "specials": ["Fireball", "Green Missile", "Super Jump Punch", "Luigi Cyclone"],
-        "finalSmash": "Poutlergust G-00",
-        "series": "Mario"
+        "CharId": 9,
+        "Name": "Luigi",
+        "Type": "brawler",
+        "Rank": "B",
+        "Specials": ["Fireball", "Green Missile", "Super Jump Punch", "Luigi Cyclone"],
+        "FinalSmash": "Poutlergust G-00",
+        "Series": "Mario"
     },
 
     {
-        "charId": 10,
-        "name": "Ness",
-        "type": "brawler",
-        "rank": "A",
-        "specials": ["PK Flash", "PK Fire", "PK Thunder", "PSI Magnet"],
-        "finalSmash": "PK Starstorm",
-        "series": "Earthbound"
+        "CharId": 10,
+        "Name": "Ness",
+        "Type": "brawler",
+        "Rank": "A",
+        "Specials": ["PK Flash", "PK Fire", "PK Thunder", "PSI Magnet"],
+        "FinalSmash": "PK Starstorm",
+        "Series": "Earthbound"
     },
 
     {
-        "charId": 11,
-        "name": "Captain-Falcon",
-        "type": "brawler",
-        "rank": "S",
-        "specials": ["Falcon Punch", "Raptor Boost", "Falcon Dive", "Falcon Kick"],
-        "finalSmash": "Blue Falcon",
-        "series": "F-Zero"
+        "CharId": 11,
+        "Name": "Captain-Falcon",
+        "Type": "brawler",
+        "Rank": "S",
+        "Specials": ["Falcon Punch", "Raptor Boost", "Falcon Dive", "Falcon Kick"],
+        "FinalSmash": "Blue Falcon",
+        "Series": "F-Zero"
     },
 
     {
-        "charId": 12,
-        "name": "Jiggly-Puff",
-        "type": "brawler",
-        "rank": "A",
-        "specials": ["Rollout", "Pound", "Sing", "Rest"],
-        "finalSmash": "Puff Up",
-        "series": "Pokemon"
+        "CharId": 12,
+        "Name": "Jiggly-Puff",
+        "Type": "brawler",
+        "Rank": "A",
+        "Specials": ["Rollout", "Pound", "Sing", "Rest"],
+        "FinalSmash": "Puff Up",
+        "Series": "Pokemon"
     }
 ]
