@@ -50,12 +50,12 @@ async function createOneCharacter(req, res) {
 
 		await Characters.create(newCharacters);
 
-		res.json({
-			message: "success",
-			payload: newCharacters
-		});
+		// res.json({
+		// 	message: "success",
+		// 	payload: newCharacters
+		// });
 
-		// res.redirect(`/oneChar/${newChar.name}`);
+		res.redirect(`/oneChar/${newCharacters.Name}`);
 	} catch (error) {
 		console.log(`createOneCharacter error: ${error}`);
 
