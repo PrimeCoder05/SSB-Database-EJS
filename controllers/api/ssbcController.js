@@ -66,8 +66,29 @@ async function createOneCharacter(req, res) {
 	}
 }
 
+async function deleteOneCharacter(req, res) {
+	try {
+		let deleteTarget = req.params.name;
+
+		await Characters.deleteOne({ Name: deleteTarget });
+
+		res.json({
+			message: "success",
+			payload: deleteTarget
+		});
+	} catch (error) {
+		console.log(`deleteOneCharacter error: ${error}`);
+
+		res.json({
+			message: "failure",
+			payload: `deleteOneCharacter error: ${error}`
+		});
+	}
+}
+
 module.exports = {
 	getAllCharacters,
 	getOneCharacter,
-	createOneCharacter
+	createOneCharacter,
+	deleteOneCharacter
 }
