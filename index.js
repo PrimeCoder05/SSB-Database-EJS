@@ -2,6 +2,7 @@ const express = require("express");
 const app = express();
 const path = require("path");
 const logger = require("morgan");
+const methodOverride = require("method-override");
 const connectToMongoDB = require("./database/mongodb");
 
 
@@ -11,6 +12,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use(logger("dev"));
 app.use(express.urlencoded({ extended: false }));
 app.use(express.json());
+app.use(methodOverride('_method'));
 
 
 const characterRouter = require("./routes/api/ssbcRouter");

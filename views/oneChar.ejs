@@ -21,5 +21,9 @@
 		</ul>
 		<h3>Final Smash: <%= characters.FinalSmash %></h3>
 		<h3>Series: <%= characters.Series %></h3>
+
+		<form action="/api/deleteOneCharacter/<%= characters.Name %>?_method=DELETE" method="post">
+			<input type="submit" name="_method" value="DELETE THIS CHARACTER">
+		</form>
 	</body>
 </html>

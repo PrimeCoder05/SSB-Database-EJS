@@ -72,10 +72,12 @@ async function deleteOneCharacter(req, res) {
 
 		await Characters.deleteOne({ Name: deleteTarget });
 
-		res.json({
-			message: "success",
-			payload: deleteTarget
-		});
+		// res.json({
+		// 	message: "success",
+		// 	payload: deleteTarget
+		// });
+
+		res.redirect("/allChars");
 	} catch (error) {
 		console.log(`deleteOneCharacter error: ${error}`);
 
