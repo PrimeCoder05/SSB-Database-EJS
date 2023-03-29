@@ -11,7 +11,7 @@
 
     {
         "CharId": 2,
-        "Name": "Donkey-Kong",
+        "Name": "Donkey Kong",
         "Type": "brawler",
         "Rank": "B",
         "Specials": ["Giant Punch", "Headbutt", "Spinning Kong", "Hand Slap"],
@@ -101,7 +101,7 @@
 
     {
         "CharId": 11,
-        "Name": "Captain-Falcon",
+        "Name": "Captain Falcon",
         "Type": "brawler",
         "Rank": "S",
         "Specials": ["Falcon Punch", "Raptor Boost", "Falcon Dive", "Falcon Kick"],
@@ -111,7 +111,7 @@
 
     {
         "CharId": 12,
-        "Name": "Jiggly-Puff",
+        "Name": "JigglyPuff",
         "Type": "brawler",
         "Rank": "A",
         "Specials": ["Rollout", "Pound", "Sing", "Rest"],
