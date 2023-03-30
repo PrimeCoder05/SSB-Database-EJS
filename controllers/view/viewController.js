@@ -28,8 +28,19 @@ async function renderCreateCharacter(req, res) {
 	}
 }
 
+// async function renderUpdateCharacter(req, res) {
+// 	try {
+// 		let result = await Characters.find({ Name: req.params.Name });
+
+// 		res.render("updateChar", { characters: result[0] });
+// 	} catch (error) {
+// 		console.log(`renderUpdateCharacter error: ${error}`);
+// 	}
+// }
+
 module.exports = {
 	renderAllCharacters,
 	renderOneCharacter,
 	renderCreateCharacter
+	// renderUpdateCharacter
 }

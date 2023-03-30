@@ -66,6 +66,32 @@ async function createOneCharacter(req, res) {
 	}
 }
 
+// async function updateOneCharacter(req, res) {
+// 	try {
+// 		let userInput = req.body;
+
+// 		let updatedCharacter = await Characters.findOneAndUpdate(
+// 			{ Name: req.params.Name },
+// 			{ $set: userInput },
+// 			{ new: true }
+// 		);
+
+// 		res.json({
+// 			message: "success",
+// 			payload: updatedCharacter
+// 		});
+		
+// 		// res.redirect("/oneChar" + req.params.Name);
+// 	} catch (error) {
+// 		console.log(`updateOneCharacter error: ${error}`);
+
+// 		res.json({
+// 			message: "failure",
+// 			payload: `updateOneCharacter error: ${error}`
+// 		});
+// 	}
+// }
+
 async function deleteOneCharacter(req, res) {
 	try {
 		let deleteTarget = req.params.name;
@@ -92,5 +118,6 @@ module.exports = {
 	getAllCharacters,
 	getOneCharacter,
 	createOneCharacter,
+	// updateOneCharacter,
 	deleteOneCharacter
 }
